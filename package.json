@@ -5,8 +5,8 @@
   "scripts": {
     "build": "browserify -t babelify main.js -o public/main.js",
     "start": "node index.js",
-    "postinstall": "npm run build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "postinstall": "npm run build && node script/build-json.js",
+    "test": "standard */**.js"
   },
   "repository": {
     "type": "git",
@@ -27,6 +27,7 @@
     "koa": "^1.1.2",
     "koa-static": "^2.0.0",
     "react": "^0.14.6",
-    "react-dom": "^0.14.6"
+    "react-dom": "^0.14.6",
+    "standard": "^5.4.1"
   }
 }
