@@ -1,0 +1,4 @@
+node_modules
+public/images.json
+public/dist
+public/main.js
