@@ -14,6 +14,6 @@ fetch('/images.json')
           </div>)
         })}
       </div>),
-      document.querySelector('#mainView')
+      document.getElementById('mainView')
     )
   })
