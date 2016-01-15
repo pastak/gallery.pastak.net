@@ -3,6 +3,22 @@
   width: 100vw;
   flex-wrap: wrap;
 }
+.share-btns > div {
+  display: inline-block;
+  vertical-align: top;
+}
+.share-btns > div > .fb-like > span {
+  vertical-align: top !important;
+}
+a.link-btn {
+  text-decoration: none;
+  padding: 2px;
+}
+a.link-btn.github {
+  height: 20px;
+  background-color: rgb(191, 191, 191);
+  color: rgb(0, 0, 0);
+}
 .image-container {
   max-width: 100%;
 }

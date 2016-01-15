@@ -25,6 +25,7 @@
     "babel-preset-react": "^6.3.13",
     "babelify": "^7.2.0",
     "browserify": "^13.0.0",
+    "knuth-shuffle": "^1.0.1",
     "koa": "^1.1.2",
     "koa-static": "^2.0.0",
     "react": "^0.14.6",
