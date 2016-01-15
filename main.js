@@ -8,7 +8,7 @@ window.fetch('/images.json')
     ReactDOM.render(
       (<div className='image-list'>
         {images.map((image) => {
-          return (<div className='image-container'>
+          return (<div className='image-container' key={image}>
             <img src={`/images/${image}`} />
           </div>)
         })}
