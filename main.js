@@ -1,8 +1,9 @@
 'use strict'
+require('whatwg-fetch')
 const React = require('react')
 const ReactDOM = require('react-dom')
 
-window.fetch('/images.json')
+fetch('/images.json')
   .then((res) => res.json())
   .then((images) => {
     ReactDOM.render(
