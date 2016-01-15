@@ -2,6 +2,7 @@
   "name": "gallery.pastak.net",
   "version": "1.0.0",
   "description": "",
+  "private": true,
   "scripts": {
     "build": "browserify -t babelify main.js -o public/main.js",
     "start": "node index.js",
